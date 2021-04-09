@@ -1,0 +1,7 @@
+1. SELECT COUNT(id) FROM city WHERE CountryCode="USA"; (GIVES 274)
+2.SELECT (Population) FROM country WHERE code="ARG" (GIVES 37032000)  , SELECT AVG(LifeExpectancy) FROM country WHERE code="ARG"; (GIVES 75.10000).
+2> CORRECTED =  SELECT LifeExpectancy, Population FROM country WHERE code = "ARG";
+4.
+5.
+6.
+7.
